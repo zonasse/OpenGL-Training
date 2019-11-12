@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D6CFA6341F546B5D00FD9232 /* OpenGl-Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGl-Triangle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CFA6341F546B5D00FD9232 /* OpenGl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CFA6681F546B8A00FD9232 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		D6CFA66A1F546B9100FD9232 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		D6CFA67C1F546BF800FD9232 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLTools.a; path = "01 OpenGL 环境搭建/libGLTools.a"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		D6CFA62B1F546B5D00FD9232 = {
 			isa = PBXGroup;
 			children = (
-				EAF2CD6D23795436008D9A29 /* OpenGl-Triangle */,
+				EAF2CD6D23795436008D9A29 /* OpenGl */,
 				D6CFA6351F546B5D00FD9232 /* Products */,
 				D6CFA6671F546B8A00FD9232 /* Frameworks */,
 			);
@@ -70,7 +70,7 @@
 		D6CFA6351F546B5D00FD9232 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6CFA6341F546B5D00FD9232 /* OpenGl-Triangle.app */,
+				D6CFA6341F546B5D00FD9232 /* OpenGl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,7 +85,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EAF2CD6D23795436008D9A29 /* OpenGl-Triangle */ = {
+		EAF2CD6D23795436008D9A29 /* OpenGl */ = {
 			isa = PBXGroup;
 			children = (
 				EAF2CD6E23795436008D9A29 /* include */,
@@ -95,7 +95,7 @@
 				EAF2CD8223795436008D9A29 /* Info.plist */,
 				EAF2CD8323795436008D9A29 /* libGLTools.a */,
 			);
-			path = "OpenGl-Triangle";
+			path = OpenGl;
 			sourceTree = "<group>";
 		};
 		EAF2CD6E23795436008D9A29 /* include */ = {
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6CFA6331F546B5D00FD9232 /* OpenGl-Triangle */ = {
+		D6CFA6331F546B5D00FD9232 /* OpenGl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6CFA65E1F546B5D00FD9232 /* Build configuration list for PBXNativeTarget "OpenGl-Triangle" */;
+			buildConfigurationList = D6CFA65E1F546B5D00FD9232 /* Build configuration list for PBXNativeTarget "OpenGl" */;
 			buildPhases = (
 				D6CFA6301F546B5D00FD9232 /* Sources */,
 				D6CFA6311F546B5D00FD9232 /* Frameworks */,
@@ -142,9 +142,9 @@
 			);
 			dependencies = (
 			);
-			name = "OpenGl-Triangle";
+			name = OpenGl;
 			productName = "01 OpenGL 环境搭建";
-			productReference = D6CFA6341F546B5D00FD9232 /* OpenGl-Triangle.app */;
+			productReference = D6CFA6341F546B5D00FD9232 /* OpenGl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +175,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6CFA6331F546B5D00FD9232 /* OpenGl-Triangle */,
+				D6CFA6331F546B5D00FD9232 /* OpenGl */,
 			);
 		};
 /* End PBXProject section */
@@ -314,11 +314,11 @@
 					OpenGL,
 					OpenGL,
 				);
-				INFOPLIST_FILE = "OpenGl-Triangle/Info.plist";
+				INFOPLIST_FILE = OpenGl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/OpenGl-Triangle",
+					"$(PROJECT_DIR)/OpenGl",
 					"$(PROJECT_DIR)/正方形键盘控制",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.com.-1-OpenGL-----";
@@ -335,11 +335,11 @@
 					OpenGL,
 					OpenGL,
 				);
-				INFOPLIST_FILE = "OpenGl-Triangle/Info.plist";
+				INFOPLIST_FILE = OpenGl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/OpenGl-Triangle",
+					"$(PROJECT_DIR)/OpenGl",
 					"$(PROJECT_DIR)/正方形键盘控制",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.com.-1-OpenGL-----";
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6CFA65E1F546B5D00FD9232 /* Build configuration list for PBXNativeTarget "OpenGl-Triangle" */ = {
+		D6CFA65E1F546B5D00FD9232 /* Build configuration list for PBXNativeTarget "OpenGl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6CFA65F1F546B5D00FD9232 /* Debug */,
